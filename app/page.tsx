@@ -10,7 +10,7 @@ export default function Home() {
         {/* Image on right side */}
         <div className='absolute top-0 right-0 bottom-0 w-full md:w-[81%]'>
           <Image
-            src='/images/table_plate.svg'
+            src='/images/homepage/hero-bg-desktop.jpg'
             alt='Exquisite dish'
             fill
             className='object-cover object-left'
@@ -54,7 +54,7 @@ export default function Home() {
               {/* Image with negative margin to overlap with hero section */}
               <div className='relative md:-mt-32 z-10'>
                 <Image
-                  src='/images/creek.svg'
+                  src='/images/homepage/enjoyable-place-desktop.jpg'
                   alt='Nature landscape'
                   width={540}
                   height={500}
@@ -123,7 +123,7 @@ export default function Home() {
             <div className='md:col-span-6 relative'>
               <div className='relative z-20 md:mb-[-150px]'>
                 <Image
-                  src='/images/chef.svg'
+                  src='/images/homepage/locally-sourced-desktop.jpg'
                   alt='Chef preparing food'
                   width={540}
                   height={500}
@@ -217,7 +217,7 @@ export default function Home() {
             <div className='md:col-span-6 relative'>
               <div className='relative z-10'>
                 <Image
-                  src='/images/family.svg'
+                  src='/images/homepage/family-gathering-desktop.jpg'
                   alt='Family dining together'
                   width={540}
                   height={600}
@@ -274,7 +274,7 @@ export default function Home() {
       <section className='relative bg-black text-white py-16'>
         <div className='absolute inset-0 z-0'>
           <Image
-            src='/images/plate_footer.svg'
+            src='/images/homepage/ready-bg-desktop.jpg'
             alt='Food background'
             fill
             className='object-cover opacity-40'
@@ -330,18 +330,18 @@ const menuItems = [
     title: 'Seared Salmon Fillet',
     description:
       'Our locally sourced salmon served with a refreshing buckwheat summer salad.',
-    image: '/images/seared_salmon_fillet.svg',
+    image: '/images/homepage/salmon-desktop-tablet.jpg',
   },
   {
     title: 'Rosemary Filet Mignon',
     description:
       'Our prime beef served to your taste with a delicious choice of seasonal sides.',
-    image: '/images/rosemary_filet_mignon.svg',
+    image: '/images/homepage/beef-desktop-tablet.jpg',
   },
   {
     title: 'Summer Fruit Chocolate Mousse',
     description:
       'Creamy mousse combined with seasonal fruit and dark chocolate shavings.',
-    image: '/images/summer_fruit_chocolate_mousse.svg',
+    image: '/images/homepage/chocolate-desktop-tablet.jpg',
   },
 ]
