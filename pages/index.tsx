@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator';
 
@@ -284,12 +285,14 @@ export default function Home() {
           <h2 className='text-3xl md:text-4xl font-bold mb-6 md:mb-0'>
             Ready to make a reservation?
           </h2>
+          <Link href="/booking">
           <Button
             variant='outline'
             className='border-white text-white bg-transparent hover:bg-white hover:text-black transition-colors'
           >
             BOOK A TABLE
           </Button>
+          </Link>
         </div>
       </section>
 
